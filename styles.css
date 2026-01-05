@@ -1,18 +1,40 @@
-body {
+* {
+    border: solid 1px black;
+}
 
+html {
+    font-family: 'Roboto'
+}
+
+body {
     padding: 0;
     margin: 0;
 }
 
-* {
-    border: solid 1px black;
+h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+    margin: auto;
 }
+
+#main-blurb p, a {
+    color:#e5e7eb;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
 
 header {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    background-color: #1f2937;
 }
 
 #header-links{
@@ -31,6 +53,7 @@ header {
     display:flex;
     flex-direction: row;
     align-items: center;
+    background-color: #1f2937;
 }
 
 #awesome-blurb {
@@ -76,4 +99,18 @@ header {
     border-radius: 25%;
     height: 50px;
     width: 50px;
+}
+
+
+footer {
+    background-color: #1f2937
+}
+
+
+.sign-up {
+    background-color: #3882f6;
+    border-radius: 5px;
+    width: 100px;
+    height: 25px;
+    color:#e5e7eb;
 }
