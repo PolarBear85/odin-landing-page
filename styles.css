@@ -1,116 +1,68 @@
 * {
-    border: solid 1px black;
-}
-
-html {
-    font-family: 'Roboto'
-}
-
-body {
-    padding: 0;
     margin: 0;
+    padding: 0;
+    border: 1px solid black;
+    font-family: 'Roboto', sans-serif
 }
-
-h1 {
-    font-size: 48px;
-    color: #f9faf8;
-    font-weight: 900;
-    margin: auto;
-}
-
-#main-blurb p, a {
-    color:#e5e7eb;
-    font-size: 18px;
-}
-
-a {
-    text-decoration: none;
-}
-
-
 
 header {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content: space-between;
+    padding: 15px 10px;
     background-color: #1f2937;
-}
-
-#header-links{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    color: #F9FAF8;
     align-items: center;
 }
+#logo-box {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
 
-.header-link {
-    margin: 2px;
-    padding: 10px
+#header-links {
+    display: flex;
+    gap: 20px;
+}
+
+#header-links a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
 }
 
 #main-blurb {
-    display:flex;
-    flex-direction: row;
-    align-items: center;
     background-color: #1f2937;
-}
-
-#awesome-blurb {
-    width: 50%;
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10px;
+    color: #F9FAF8;
+    gap: 48px;
 }
 
-#placeholder-blurb {
-    width: 50%;
+#awesome-blurb h1 {
+    font-size: 48px;
+    font-weight: 900
 }
 
-#placeholder-img {
-    width: 100%;
-    height: 100%;
+#awesome-blurb p {
+    color: #E5E7EB;
+    font-size: 18px
 }
-
-#info-blurb {
-    display: flex;
-    flex-direction: column;
-}
-
-#info-heading {
-    width: 100%;
-    text-align:center;
-}
-
-#info-boxes {
-    display: flex;
-    flex-direction: row;
-    margin: auto;
-    justify-content: space-evenly;
-    width: 75%;
-}
-
-.info-box {
-    margin: 10px;
-    justify-content: center;
-    text-align: center;
-}
-
-.box {
-    border-radius: 25%;
-    height: 50px;
-    width: 50px;
-}
-
-
-footer {
-    background-color: #1f2937
-}
-
 
 .sign-up {
     background-color: #3882f6;
-    border-radius: 5px;
-    width: 100px;
-    height: 25px;
-    color:#e5e7eb;
+    color: white;
+    padding: 8px 32px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
 }
+
+#info-heading {
+    display: block;
+}
+
+
+/* Attached is a picture, my HTML, and my CSS. I want you to walk through with me how I might get my code to look like the picture. Don't give me the solution, talk and walk me through to it myself. */
