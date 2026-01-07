@@ -5,15 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin Project Landing Page</title>
     <link rel="stylesheet" href="./styles.css"/>
-    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap' rel='stylesheet'>
 </head>
 <body>
     <header>
-        <div id="logo-box">
-            Header Logo
-        </div>
-        <div id="header-links">
-            <nav class="header-link">
+        <div id="header-container" class="container">
+            <div id="logo-box">
+                Header Logo
+            </div>
+            <nav id="header-links">
                 <a href="">header link one</a>
                 <a href="">header link two</a>
                 <a href="">header link three</a>
@@ -21,48 +21,56 @@
         </div>
     </header>
     <main>
-        <div id="main-blurb">
-            <div id="awesome-blurb">
-                <h1>This website is awesome</h1>
-                <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
-                <button class="sign-up">Sign Up</button>
-            </div>
-            <div id="placeholder-blurb">
-                <img id="placeholder-img" class="placeholder" src="./images/placeholder.png"/>
-            </div>
-        </div>
-        <div id="info-blurb">
-            <div id="info-heading">
-                <h2>Some Random Information.</h2>
-            </div>
-            <div id="info-boxes">
-                <div class="info-box">
-                    <div class="box"></div>
-                    <p>This is some subtext under an illustration or image</p>
+        <div id="main-container" class="container">
+            <div id="main-blurb">
+                <div id="awesome-blurb">
+                    <h1>This website is awesome</h1>
+                    <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
+                    <button class="sign-up">Sign Up</button>
                 </div>
-                <div class="info-box">
-                    <div class="box"></div>
-                    <p>This is some subtext under an illustration or image</p>
+                <div id="hero-img-container">
+                    <div id="hero-image">This is a placeholder for an image</div>
                 </div>
-                <div class="info-box">
-                    <div class="box"></div>
-                    <p>This is some subtext under an illustration or image</p>
-                </div>
-                <div class="info-box">
-                    <div class="box"></div>
-                    <p>This is some subtext under an illustration or image</p>
-                </div>
+
             </div>
         </div>
-        <div class="quote-blurb">
-            <figure>
-                <blockquote>
-                    This is an inspiring quote, or a testimonial from a customer.
-                    Maybe it's just filling up space, or maybe people will actually read it. Who knows?
-                    All I know is that it looks nice
-                </blockquote>
-                <figcaption>Thor, God of Thunder</figcaption>
-            </figure>
+        <div id="info-container" class="container">
+            <div id="info-blurb">
+                <div id="info-heading">
+                    <h2>Some Random Information.</h2>
+                </div>
+                <div id="info-boxes">
+                    <div class="info-box">
+                        <div class="box"></div>
+                        <p>This is some subtext under an illustration or image</p>
+                    </div>
+                    <div class="info-box">
+                        <div class="box"></div>
+                        <p>This is some subtext under an illustration or image</p>
+                    </div>
+                    <div class="info-box">
+                        <div class="box"></div>
+                        <p>This is some subtext under an illustration or image</p>
+                    </div>
+                    <div class="info-box">
+                        <div class="box"></div>
+                        <p>This is some subtext under an illustration or image</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div id="quote-container" class="container">
+            <div class="quote-blurb">
+                <figure>
+                    <blockquote>
+                        This is an inspiring quote, or a testimonial from a customer.
+                        Maybe it's just filling up space, or maybe people will actually read it. Who knows?
+                        All I know is that it looks nice
+                    </blockquote>
+                    <figcaption>Thor, God of Thunder</figcaption>
+                </figure>
+            </div>
         </div>
         <div id="bottom">
             <div id="call-to-action">
