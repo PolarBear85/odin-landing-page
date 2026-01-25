@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    border: 1px solid black;
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
 }
@@ -88,7 +87,6 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid red;
     width: 100%;
     height: 400px;
     background-color: darkgray;
@@ -142,6 +140,7 @@ h2 {
 
 #quote-container {
     background-color: #e5e7eb;
+    padding: 100px 0;
 }
 
 
@@ -156,6 +155,34 @@ figcaption {
     text-align: right;
     font-weight: 900;
     font-size: 36px;
+}
+
+#bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    padding: 100px
+
+}
+
+#call-to-action {
+    background-color: #3882f6;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    padding: 20px;
+    width: 100%;
+}
+
+#call-to-action-blurb {
+    color: #F9FAF8;
+    padding: 50px
+}
+
+#bottom-btn {
+    border: 1px #F9FAF8 solid;
 }
 
 
